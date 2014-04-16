@@ -130,7 +130,9 @@ namespace ITunesSDK
             showMessage(result);
             objApp = null;
         }
+        
         delegate void formAccessDelegate(string text);
+
         public void showMessage(string text)
         {
             if (resultLb.InvokeRequired)
